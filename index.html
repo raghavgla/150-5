@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: whitesmoke;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+        }
+
+        .left div {
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 800;
+        }
+
+        .mid {
+            margin-top: 12px;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 12px;
+            color: black;
+            font-weight: 500;
+        }
+
+        .navbar li a:hover {
+            color: blue;
+        }
+
+        .left {
+            position: relative;
+            left: 100px;
+            top: 25px;
+        }
+
+        .right {
+            position: relative;
+            right: 120px;
+            top: 20px;
+        }
+
+        .right i {
+            padding-left: 20px;
+            border: 2px solid rgb(196, 192, 192);
+            background-color: rgb(196, 192, 192);
+            padding: 10px;
+        }
+
+        .right i:hover {
+            background-color: orange;
+        }
+
+        .right div{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="left">
+            <i class="fa-solid fa-check"></i>
+            <div>Milao</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Search Naukri</a></li>
+                <li><a href="#">Company Review</a></li>
+                <li><a href="#">Find Salaries</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div>John Doe</div>
+        </div>
+    </header>
+</body>
+</html>
